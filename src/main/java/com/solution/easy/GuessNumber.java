@@ -1,6 +1,4 @@
-package com.solution;
-
-import java.util.Arrays;
+package com.solution.easy;
 
 public class GuessNumber {
     /*小A 和 小B 在玩猜数字。小B 每次从 1, 2, 3 中随机选择一个，小A 每次也从 1, 2, 3 中选择一个猜。

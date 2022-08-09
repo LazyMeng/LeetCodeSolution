@@ -1,4 +1,4 @@
-package com.solution;
+package com.solution.easy;
 
 public class RobotGame {
     public static void main(String args[]) {
