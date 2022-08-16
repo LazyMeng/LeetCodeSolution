@@ -46,6 +46,17 @@ class RunningSumof1dArray1480 {
             sumArray[i] = sum;
         }
         return sumArray;
-    }}
+    }
+
+    public int[] solutionLeetCode(int[] nums) {
+        int[] result = new int[nums.length];
+        result[0] = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            result[i] = result[i - 1] + nums[i];
+        }
+        return result;
+    }
+}
+
 //leetcode submit region end(Prohibit modification and deletion)
 
