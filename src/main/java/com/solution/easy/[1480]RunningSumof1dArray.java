@@ -37,7 +37,7 @@ package com.solution.easy;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class RunningSumof1dArray1480 {
+class Sulotion724 {
     public int[] runningSum(int[] nums) {
         int[] sumArray = new int[nums.length];
         int sum = 0;
